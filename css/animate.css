@@ -1,13 +1,14 @@
-.delay{animation-delay: 1s;}
-.time{animation-duration: .5s;}
-.time1{animation-duration: 1s;}
-.time3{animation-duration: 3s;}
+.delay{-webkit-animation-delay: 1s;animation-delay: 1s;}
+.time{-webkit-animation-duration: .5s;animation-duration: .5s;}
+.time1{-webkit-animation-duration: 1s;animation-duration: 1s;}
+.time3{-webkit-animation-duration: 3s;animation-duration: 3s;}
 .animated{
 	-webkit-animation-timing-function: linear;
 	-o-animation-timing-function: linear;
 	animation-timing-function: linear;
 }
 .infinite{
+	-webkit-animation-iteration-count: infinite;
 	animation-iteration-count: infinite;
 }
 @-webkit-keyframes bounceInDown{
