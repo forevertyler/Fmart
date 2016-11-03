@@ -38,7 +38,7 @@
 @-webkit-keyframes flash{0%,100%,50%{opacity:1}25%,75%{opacity:0}}
 @keyframes flash{0%,100%,50%{opacity:1}25%,75%{opacity:0}}
 .flash{-webkit-animation-name:flash;animation-name:flash}
-.zoomInRight{0%{opacity:0;-webkit-transform:scale(.1) translateX(20rem);transform:scale(.1) translateX(20rem);-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out}60%{opacity:1;-webkit-transform:scale(.475) translateX(-.48rem);transform:scale(.475) translateX(-.48rem);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}}
+@-webkit-zoomInRight{0%{opacity:0;-webkit-transform:scale(.1) translateX(20rem);transform:scale(.1) translateX(20rem);-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out}60%{opacity:1;-webkit-transform:scale(.475) translateX(-.48rem);transform:scale(.475) translateX(-.48rem);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}}
 @keyframes zoomInRight{0%{opacity:0;-webkit-transform:scale(.1) translateX(20rem);-ms-transform:scale(.1) translateX(20rem);transform:scale(.1) translateX(20rem);-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out}60%{opacity:1;-webkit-transform:scale(.475) translateX(-.48rem);-ms-transform:scale(.475) translateX(-.48rem);transform:scale(.475) translateX(-.48rem);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}}
 .zoomInRight{-webkit-animation-name:zoomInRight;animation-name:zoomInRight}
 @-webkit-keyframes pulse{
