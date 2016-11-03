@@ -1,0 +1,123 @@
+*{margin: 0;padding: 0;}
+html{font-size: 50px;}
+.page{
+	position: relative;
+	background: url(../images/bgi.png) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 13.34rem;
+}
+.arrow{
+	position: absolute;
+	left:0.55rem;
+	top:2.32rem;
+	z-index: 5;
+	width: 5.46rem;
+	height: 1.9rem;
+	background: url(../images/arrow.png) no-repeat;
+	-webkit-background-size:100%;
+	background-size: 100%;
+	animation-fill-mode: both;
+
+}
+.fmart{
+	position: absolute;
+	left:0.55rem;
+	top:2.32rem;
+	z-index: 6;
+	width: 5.46rem;
+	height: 1.9rem;
+	background: url(../images/fmart.png) no-repeat;
+	-webkit-background-size:100%;
+	background-size: 100%;
+	animation-fill-mode: both;
+
+}
+.phone{
+	position: absolute;
+	left:24.933%;
+	top:1.55rem;
+	z-index: 4;
+	width: 1.85rem;
+	height: 5.49rem;
+	background: url(../images/phone.png) no-repeat;
+	-webkit-background-size:100%;
+	background-size: 100%;
+	animation-fill-mode: both;
+
+}
+.bot{
+	position: absolute;
+	left: 54%;
+	top:4.66rem;
+	z-index: 4;
+	width: 2.68rem;
+	height: 2.4rem;
+	background: url(../images/bot.png) no-repeat;
+	-webkit-background-size:100%;
+	background-size: 100%;
+	animation-fill-mode: both;
+
+}
+.wordCutBgi{
+	position: absolute;
+	left:0;
+	top:7.03rem;
+	z-index: 10;
+	width: 100vw;
+	height: 1.34rem;
+	background: url(../images/wordCutBgi.png) no-repeat;
+	-webkit-background-size:100%;
+	background-size: 100%;
+	animation-fill-mode: both;
+
+}
+.cutWord{
+	position: absolute;
+	left:0;
+	top:7.03rem;
+	z-index: 11;
+	width: 100vw;
+	height: 1.34rem;
+	background: url(../images/wordCut.png) no-repeat;
+	-webkit-background-size:100%;
+	background-size: 100%;
+	animation-fill-mode: both;
+
+}
+#txt{
+	position: absolute;
+	top: 9.6rem;
+	left: 1.3rem;
+	width:4.38rem;
+	height: 0.93rem;
+	line-height: 0.93rem;
+	padding:0 0.3rem;
+	border-radius: 5px;
+	border: 1px solid #000;
+	font-size: 0.3rem;
+	background-color: #f3c922;
+	color: #555;
+	animation-fill-mode: both;
+
+}
+.page a{
+	position: absolute;
+	top: 10.86rem;
+	left: 1.3rem;
+	display: block;
+	width:4.98rem;
+	height: 0.93rem;	
+	background-color: #000;
+	border-radius: 5px;
+	border: 1px solid #000;
+	text-align:center;
+	line-height: 0.93rem;
+	font-size: 0.4rem;
+	color: #f3c922;
+	text-decoration: none;
+	font-family: 'Microsoft Yahei',Tahoma,Helvetica,Arial,sans-serif;
+	animation-fill-mode: both;
+	
+}
